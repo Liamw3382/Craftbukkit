@@ -1,0 +1,58 @@
+2023-06-07 02:16:45 [INFO] Starting minecraft server version 1.5.2
+2023-06-07 02:16:45 [INFO] Loading properties
+2023-06-07 02:16:45 [WARNING] server.properties does not exist
+2023-06-07 02:16:45 [INFO] Generating new properties file
+2023-06-07 02:16:45 [INFO] Default game type: SURVIVAL
+2023-06-07 02:16:45 [INFO] Generating keypair
+2023-06-07 02:16:45 [INFO] Starting Minecraft server on *:25565
+2023-06-07 02:16:46 [INFO] This server is running CraftBukkit version git-Bukkit-1.5.2-R1.0-b2788jnks (MC: 1.5.2) (Implementing API version 1.5.2-R1.0)
+2023-06-07 02:16:46 [WARNING] Failed to load operators list: java.io.FileNotFoundException: ./ops.txt (No such file or directory)
+2023-06-07 02:16:46 [WARNING] Failed to load white-list: java.io.FileNotFoundException: ./white-list.txt (No such file or directory)
+2023-06-07 02:16:46 [INFO] Preparing level "world"
+2023-06-07 02:16:46 [SEVERE] Exception in thread "Thread-5" 
+2023-06-07 02:16:46 [SEVERE] org.bukkit.craftbukkit.libs.com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+
+2023-06-07 02:16:46 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:180)
+
+2023-06-07 02:16:46 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:755)
+
+2023-06-07 02:16:46 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:694)
+
+2023-06-07 02:16:46 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.updater.BukkitDLUpdaterService.fetchArtifact(BukkitDLUpdaterService.java:51)
+
+2023-06-07 02:16:46 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.updater.BukkitDLUpdaterService.getArtifact(BukkitDLUpdaterService.java:28)
+
+2023-06-07 02:16:46 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.updater.AutoUpdater$1.run(AutoUpdater.java:77)
+
+2023-06-07 02:16:46 [SEVERE] Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+
+2023-06-07 02:16:46 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.expect(JsonReader.java:339)
+
+2023-06-07 02:16:46 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.beginObject(JsonReader.java:322)
+
+2023-06-07 02:16:46 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:168)
+
+2023-06-07 02:16:46 [SEVERE] 	... 5 more
+
+2023-06-07 02:16:46 [INFO] Preparing start region for level 0 (Seed: -1184973840050842035)
+2023-06-07 02:16:47 [INFO] Preparing spawn area: 8%
+2023-06-07 02:16:48 [INFO] Preparing spawn area: 20%
+2023-06-07 02:16:49 [INFO] Preparing spawn area: 29%
+2023-06-07 02:16:50 [INFO] Preparing spawn area: 41%
+2023-06-07 02:16:51 [INFO] Preparing spawn area: 49%
+2023-06-07 02:16:52 [INFO] Preparing spawn area: 62%
+2023-06-07 02:16:53 [INFO] Preparing spawn area: 74%
+2023-06-07 02:16:54 [INFO] Preparing spawn area: 91%
+2023-06-07 02:16:55 [INFO] Preparing start region for level 1 (Seed: -1184973840050842035)
+2023-06-07 02:16:55 [INFO] Preparing spawn area: 4%
+2023-06-07 02:16:56 [INFO] Preparing spawn area: 20%
+2023-06-07 02:16:57 [INFO] Preparing spawn area: 41%
+2023-06-07 02:16:58 [INFO] Preparing spawn area: 62%
+2023-06-07 02:16:59 [INFO] Preparing spawn area: 82%
+2023-06-07 02:17:00 [INFO] Preparing start region for level 2 (Seed: -1184973840050842035)
+2023-06-07 02:17:00 [INFO] Preparing spawn area: 0%
+2023-06-07 02:17:01 [INFO] Preparing spawn area: 37%
+2023-06-07 02:17:02 [INFO] Preparing spawn area: 74%
+2023-06-07 02:17:03 [INFO] Done (17.109s)! For help, type "help" or "?"
+2023-06-07 02:17:25 [INFO] /127.0.0.1:36030 lost connection
+2023-06-07 02:17:26 [INFO] /127.0.0.1:36036 lost connection
